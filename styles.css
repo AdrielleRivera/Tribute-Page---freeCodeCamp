@@ -5,11 +5,12 @@ body {
     color: #333;
 }
 #title{
-	font-size: 4rem;
+	font-size: 3rem;
     margin-bottom: 0;
 }
 p{
 	margin-bottom: 2rem;
+	font-size: 1.2rem;
 }
 img{
 	max-width: 100%;
@@ -44,4 +45,37 @@ ul{
 }
 li{
 	margin: 16px 0;
+}
+blockquote{
+	font-style: italic;
+    max-width: 545px;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1rem;
+}
+blockquote p{
+	font-size: 1rem;
+}
+h3{
+	    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+footer{
+  margin:2em;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+#a-1{
+	font-weight: 550;
+}
+a:hover{
+  color: #008080;
 }
